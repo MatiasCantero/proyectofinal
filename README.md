@@ -1,4 +1,4 @@
-# proyectofinal
+# Proyecto Final
 
 
 En esta primer entrega del proyecto final presento una app de peliculas en el cual se utilizo html,css,js y boostrap.
