@@ -9,6 +9,6 @@ async function main() {
   console.log("Server on port", app.get("port"));
   console.log("Environment:", process.env.NODE_ENV);
 }
- const PORT = process.env.PORT || 4000;
+
 
 main();
