@@ -24,7 +24,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 app.set("port", PORT);
 app.set("views", join(__dirname, "views"));
 
-
 // config view engine
 const hbs = exphbs.create({
   defaultLayout: "main",

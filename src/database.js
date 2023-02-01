@@ -2,10 +2,10 @@ import mongoose from "mongoose";
 import { MONGOATLAS } from "./config.js";
 
 try {
-  const db = await mongoose.connect(MONGOATLAS,{
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+  const db = await mongoose.connect(MONGOATLAS, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
   console.log("Connected to ", db.connection.name);
 } catch (error) {
   console.error(error);
@@ -20,4 +20,3 @@ mongoose.connection.on("disconnected", () => {
 });
 
 //-----------
-
